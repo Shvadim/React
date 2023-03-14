@@ -1,21 +1,5 @@
-const numberOfFilms = +prompt('Сколько фильмов Вы уже посмотрели', '');
+"use strict";
 
-const personalMoviewDB = {
-   count: numberOfFilms,
-   movies: {},
-   actors: {},
-   genres: [],
-   privat: false   
-};
+const str = "Hello world";
 
-let lastFilmWatched = prompt('Один из последних просмотренных фильмов?');
-let levelLastFilmWatched = prompt('На сколько оцените его?');
-
-personalMoviewDB.movies[lastFilmWatched] = levelLastFilmWatched;
-
-lastFilmWatched = prompt('Один из последних просмотренных фильмов?');
-levelLastFilmWatched = prompt('На сколько оцените его?');
-
-personalMoviewDB.movies[lastFilmWatched] = levelLastFilmWatched;
-
-console.log(personalMoviewDB);
+console.log(str.substr(2, 5));

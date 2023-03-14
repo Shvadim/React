@@ -1,0 +1,5 @@
+{
+  "port": 5000,
+  "jwtSecret": "shooter the best",
+  "mongoUri": "mongodb+srv://shooter:Vadim1@cluster0.ihdbjjs.mongodb.net/?retryWrites=true&w=majority"
+}
